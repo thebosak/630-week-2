@@ -19,7 +19,7 @@ class Rectangle:
         area=self.length*self.width
         
         return area
-
+'''
 def getNumbers():
     length = eval(input("Enter the length: "))
     width  = eval(input("Enter the width: "))
@@ -30,4 +30,4 @@ def main():
     rect=Rectangle(length,width)
     print(rect.area())
     
-main()
+main()'''
