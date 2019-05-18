@@ -6,7 +6,7 @@ Created on May 13, 2019
 
 class Rectangle:
     '''
-    classdocs
+    Rectangle class defined by a length and width
     '''
 
 
@@ -19,15 +19,3 @@ class Rectangle:
         area=self.length*self.width
         
         return area
-'''
-def getNumbers():
-    length = eval(input("Enter the length: "))
-    width  = eval(input("Enter the width: "))
-    return length, width
-
-def main():
-    length,width = getNumbers()
-    rect=Rectangle(length,width)
-    print(rect.area())
-    
-main()'''
